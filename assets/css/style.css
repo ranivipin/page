@@ -105,9 +105,42 @@
     align-items: center;
     transform: translateY(-20px)
 }
-
+.bb-2{
+    border: none;
+    border-bottom: 2px solid black;
+}
+.pos-ab{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+.position-absolute6
+{position: absolute;
+    top: 50%;
+    right: 10%;
+}
+.position-ab{
+    position: absolute;
+    right: 8%;
+    top: 30%;
+}
+.p-s{
+    position: absolute;
+    bottom: 5%;
+    left: 10%;
+}
+.p-a{
+    position: absolute;
+    left: 0;
+    bottom: 13%;
+}
 .pb-500 {
     padding-bottom: 500px;
+}
+.position-absolute7{
+    position: absolute;
+    right: 20px;
+    top: 40px;
 }
 
 .mw-375 {
