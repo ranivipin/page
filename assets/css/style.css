@@ -40,8 +40,8 @@
 
 .position_absolute2 {
     position: absolute;
-    left: 22%;
-    top: 45%;
+    left: 23%;
+    top: 32%;
 }
 
 .position-absolute4 {
@@ -66,8 +66,15 @@
     padding: 11px 45px;
     border-radius: 28px;
     border: none;
+    transition: all .1s linear;
+
 
 }
+
+.btn2:hover {
+    box-shadow: 0px 4px 10px #F14F09;
+}
+
 
 .text-orange {
     color: #F14F09;
@@ -75,7 +82,7 @@
 
 .position-absolute5 {
     position: absolute;
-    right: 23%;
+    right: 13%;
     top: 30px;
 }
 
@@ -105,39 +112,48 @@
     align-items: center;
     transform: translateY(-20px)
 }
-.bb-2{
+
+.bb-2 {
     border: none;
     border-bottom: 2px solid black;
+    outline: none;
 }
-.pos-ab{
+
+.pos-ab {
     position: absolute;
     right: 20px;
     top: 20px;
 }
-.position-absolute6
-{position: absolute;
+
+.position-absolute6 {
+    position: absolute;
     top: 50%;
     right: 10%;
 }
-.position-ab{
+
+.position-ab {
     position: absolute;
     right: 8%;
     top: 30%;
 }
-.p-s{
+
+.p-s {
     position: absolute;
     bottom: 5%;
     left: 10%;
 }
-.p-a{
+
+.p-a {
     position: absolute;
     left: 0;
     bottom: 13%;
 }
+
 .pb-500 {
     padding-bottom: 500px;
 }
-.position-absolute7{
+
+.position-absolute7 {
     position: absolute;
     right: 20px;
     top: 40px;
@@ -158,6 +174,15 @@
     background: linear-gradient(96.64deg, #FD9B2B 13.58%, #F14F09 86.99%),
         linear-gradient(0deg, #FFFFFF, #FFFFFF);
     color: #FFFFFF;
+
+
+}
+
+.pos-absolute {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
 }
 
 .bg-footer {
@@ -166,16 +191,23 @@
     background-repeat: no-repeat;
 }
 
-.circle:hover {
-    background: #FFFFFF !important;
+.ps {
+    position: absolute;
+    top: -30px;
+    left: 50px;
+}
+
+.card2:hover .circle {
+    background: #FFFFFF;
 }
 
 .card2:hover .circle svg path {
-    fill: #F14F09;
+    fill: url(#paint0_linear_19268_1847) !important;
 }
 
 .orange_box:hover {
     transform: translateY(-70px) !important;
+
 }
 
 .mw-484 {
@@ -215,7 +247,6 @@
     right: 0;
     bottom: 0;
     background: #FFFFFF;
-
     -webkit-transition: .4s;
     transition: .4s;
 }
@@ -227,8 +258,7 @@
     width: 26px;
     left: 4px;
     bottom: 4px;
-    background:
-        linear-gradient(96.64deg, #FD9B2B 13.58%, #F14F09 86.99%);
+    background: linear-gradient(96.64deg, #FD9B2B 13.58%, #F14F09 86.99%);
     -webkit-transition: .4s;
     transition: .4s;
 }
@@ -271,7 +301,7 @@ input:checked+.slider:before {
 
 .card3 {
     border-radius: 10px;
-
+    width: 570px;
     border: 1px solid #E8E8E8;
     background: linear-gradient(97deg, #FD9B2B 13.58%, #F14F09 86.99%), #FFF;
 }
@@ -282,6 +312,10 @@ input:checked+.slider:before {
 
 .max_w_445 {
     max-width: 445px;
+}
+
+.z_index_6 {
+    z-index: 6 !important;
 }
 
 @media (max-width:992px) {
@@ -322,9 +356,9 @@ input:checked+.slider:before {
     }
 
     .position-fixed {
-        position: fixed;
+        position: fixed !important;
         top: 0;
-        z-index: 5;
+        z-index: 10 !important;
         background-color: #FFF;
     }
 

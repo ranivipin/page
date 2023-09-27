@@ -126,14 +126,17 @@
         position: absolute;
         right: 10%;
         top: 43%;
-    
+
     }
-    .icon1{
-       max-width: 55px;
+
+    .icon1 {
+        max-width: 55px;
     }
-        .position_absolute2 {
-            position: absolute;
-            left: 22%;
-            top: 45%;
-        }
+
+    .position_absolute2 {
+        position: absolute;
+        left: 0;
+        top: 37%;
+    }
+
 }
