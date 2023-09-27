@@ -22,7 +22,7 @@
 
 .bg-image {
     background-image: url(../image/nature.png);
-    background-size: cover;
+    background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -316,6 +316,12 @@ input:checked+.slider:before {
 
 .z_index_6 {
     z-index: 6 !important;
+}
+
+.line {
+    width: 100%;
+    border: 1px solid #FFFFFF40;
+    margin-top: 30px;
 }
 
 @media (max-width:992px) {
